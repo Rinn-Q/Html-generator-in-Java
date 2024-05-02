@@ -1,23 +1,23 @@
-body{background-color: gray;
+body{background-color: green;
 }
 .header{
-color:yellow;
-text-align:center;
-background-color: white;
+color:#;
+text-align:#;
+background-color: #;
 }
 .paragraph{
-color:black;
-text-align:left;
-background-color: pink;
+color:;
+text-align:;
+background-color: ;
 }
 .list{
-color:green;
-text-align:right;
-background-color: red;
+color:;
+text-align:;
+background-color: ;
 }
 .link{
-color:blue;
-text-align:center;
-background-color: white;
-text-decoration: none;
+color:;
+text-align:;
+background-color: ;
+text-decoration: ;
 }
