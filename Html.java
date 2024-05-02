@@ -44,18 +44,18 @@ public class Html {
                 case "h6":
                     System.out.print("Enter heading text: ");
                     String headingText = scanner.nextLine();
-                    htmlContent += "<" + input + ">" + headingText + "</" + input + ">\n";
+                    htmlContent += "<" + input + "class='header'>" + headingText + "</" + input + ">\n";
                     break;
                 case "p":
                     System.out.print("Enter paragraph text: ");
                     String paragraphText = scanner.nextLine();
-                    htmlContent += "<p>" + paragraphText + "</p>\n";
+                    htmlContent += "<p class='paragraph'>" + paragraphText + "</p>\n";
                     break;
                 case "ul":
                 case "ol":
                     System.out.print("Enter number of list items: ");
                     int numItems = Integer.parseInt(scanner.nextLine());
-                    htmlContent += "<" + input + ">\n";
+                    htmlContent += "<" + input + " class='ul'>\n";
                     for (int i = 0; i < numItems; i++) {
                         System.out.print("Enter item " + (i + 1) + ": ");
                         String listItem = scanner.nextLine();
@@ -68,7 +68,7 @@ public class Html {
                     String linkText = scanner.nextLine();
                     System.out.print("Enter URL: ");
                     String url = scanner.nextLine();
-                    htmlContent += "<a href=\"" + url + "\">" + linkText + "</a>\n";
+                    htmlContent += "<a class='link' href=\"" + url + "\">" + linkText + "</a>\n";
                     break;
                 case "exit":
                     break;
