@@ -1,3 +1,23 @@
-a{
-background-color:blue; 
+body{background-color: gray;
+}
+.header{
+color:yellow;
+text-align:center;
+background-color: white;
+}
+.paragraph{
+color:black;
+text-align:left;
+background-color: pink;
+}
+.list{
+color:green;
+text-align:right;
+background-color: red;
+}
+.link{
+color:blue;
+text-align:center;
+background-color: white;
+text-decoration: none;
 }

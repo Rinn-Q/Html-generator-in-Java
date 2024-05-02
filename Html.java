@@ -44,7 +44,7 @@ public class Html {
                 case "h6":
                     System.out.print("Enter heading text: ");
                     String headingText = scanner.nextLine();
-                    htmlContent += "<" + input + "class='header'>" + headingText + "</" + input + ">\n";
+                    htmlContent += "<" + input + " class='header'>" + headingText + "</" + input + ">\n";
                     break;
                 case "p":
                     System.out.print("Enter paragraph text: ");
